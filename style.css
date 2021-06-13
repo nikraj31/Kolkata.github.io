@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Montserrat:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+
+}
+
+.logo{
+    margin-left: 2px;
+    margin-bottom: 11px;
+}
+
+.container{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    background-color:rgb(241, 237, 229);
+    position: sticky;
+    top: 0px;
+}
+
+ .btn{
+     margin-right: 10px;
+     padding: 5px;
+     border: none;
+     border-radius: 10px;
+     cursor: pointer;
+     background-color: whitesmoke;
+     color: black;
+ }
+
+.btn:hover{
+        background-color: rgb(209, 209, 209)
+}
+
+ul li a{
+    /* text-decoration: none; */
+    margin: 0 24px;
+    /* padding: 10px; */
+    color: black;
+}
+ul li a:hover{
+        text-decoration: underline;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul{
+    list-style: none;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+}
+
+.hero{
+    height: 40em;
+    width: 100%;
+    background-size: cover;   
+    background-repeat: no-repeat;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(Gallery/heera-ramesh-vGfv_TDkWFE-unsplash.jpg) ;
+}
+
+.kk{
+    padding-top: 30px;
+    font-family: 'Major Mono Display', monospace;
+    color: rgb(250, 250, 250);
+    font-size: 59px;
+}
+.p2{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 200px;
+    font-family: 'Major Mono Display', monospace;
+    color: rgb(250, 250, 250);
+    font-size: 20px;
+}
+
+.content{
+    height: fit-content;
+}
+
+.content h2{
+    font-family: 'Viaoda Libre', cursive;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+.content img{
+    height: 600px;
+    width: 340px;
+    margin: 10px;
+}
+
+
+
+.blogs{
+    height: fit-content;
+}
+
+.blogs h2{
+    font-family: 'Viaoda Libre', cursive;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 50px;
+}
+
+.blogs .cards{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blogs .blog1{
+    margin: 30px auto;
+    height: 415px;
+    width: 300px;
+    /* border: 2px solid black; */
+    /* display: flex; */
+}
+.blogs .blog1 img{
+    border-radius: 100px;
+        height: 200px;
+        width: 300px;
+}
+.blogs .blog1 .p1{
+        margin: 10px auto;
+        text-align: center;       
+}
+.blogs .blog1 .btn{
+    
+    border-radius: 50px;
+    padding: 9px;
+    margin:10px 100px;   
+}
+.blogs .blog2{
+    margin: 30px auto;
+    height: 400px;
+    width: 300px;
+    /* border: 2px solid black; */
+    /* display: flex; */
+}
+.blogs .blog2 img{
+    border-radius: 100px;
+        height: 200px;
+        width: 300px;
+}
+.blogs .blog2 .p1{
+    margin: 10px auto;
+        text-align: center;       
+}
+.blogs .blog2 .btn{
+    
+    border-radius: 50px;
+    padding: 9px;
+    margin:10px 100px;   
+}
+.blogs .blog3{
+    margin: 30px auto;
+    height: 400px;
+    width: 300px;
+    /* border: 2px solid black; */
+    /* display: flex; */
+}
+.blogs .blog3 img{
+    border-radius: 100px;
+        height: 200px;
+        width: 300px;
+}
+.blogs .blog3 .p1{
+    margin: 10px auto;
+        text-align: center;       
+}
+.blogs .blog3 .btn{
+    
+    border-radius: 50px;
+    padding: 9px;
+    margin:10px 100px;   
+}
+
+.hwhero h2{
+    font-family: 'Viaoda Libre', cursive;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 50px;
+}
+
+.para1{
+    /* border: 2px solid black; */
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    margin-bottom: 20px;
+}
+
+.para2{
+    /* border: 2px solid black; */
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    margin-bottom: 20px;
+}
+
+.para3{
+    /* border: 2px solid black; */
+     display: flex; 
+    justify-content: center;
+    align-items: center;
+     flex-wrap: wrap; 
+
+}
+
+.hwhero img{
+    height: 219px;
+    width: 346px;
+    border-radius: 105px;
+}
+
+.hwhero p{
+    margin: 10px;
+}
+
+.footer{
+    margin-top: auto;
+    height: 100%;
+    background-color: rgb(241, 237, 229);
+    padding: 10px;
+    text-align: center;
+}
+
+
